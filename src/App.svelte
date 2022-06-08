@@ -11,6 +11,7 @@
 	<h1>Hello {name}!</h1>
 	<p>Color: {color}</p>
 	<button on:click={clickHandler}>Change color</button>
+	<input type="text" bind:value={color} />
 </main>
 
 <style>
